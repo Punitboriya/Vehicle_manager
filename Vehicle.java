@@ -18,5 +18,8 @@ public class Vehicle {
 		
 		ElectricEngine ee = new ElectricEngine();
 		ee.start();
+		
+		HydrogneEngine he = new HydrogneEngine();
+		he.start();
 	}
 }
