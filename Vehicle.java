@@ -9,11 +9,14 @@ public class Vehicle {
 		pE.stop();
 		pE.sound();
 
-//		DesileEngine dE = new DesileEngine();
-//		dE.start();
-//		dE.stop();
+		DesileEngine dE = new DesileEngine();
+		dE.start();
+		dE.stop();
 		
 		Cng c = new Cng();
 		c.start();
+		
+		ElectricEngine ee = new ElectricEngine();
+		ee.start();
 	}
 }
