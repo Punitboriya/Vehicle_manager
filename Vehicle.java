@@ -21,5 +21,6 @@ public class Vehicle {
 		
 		HydrogneEngine he = new HydrogneEngine();
 		he.start();
+		he.stop();
 	}
 }
