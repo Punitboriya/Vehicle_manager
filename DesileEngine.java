@@ -7,5 +7,13 @@ public class DesileEngine {
 	public void stop() {
 		System.out.println("DesileEngine stoped");
 	}
+	
+	public void gernratePower() {
+		System.out.println("DesileEngine Power Genrated");
+	}
+	
+	public void addFule() {
+		
+	}
 
 }
